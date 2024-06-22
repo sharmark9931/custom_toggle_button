@@ -34,7 +34,8 @@ void main() {
     expect(selectedIndex, 1);
   });
 
-  testWidgets('CustomToggleButton applies customizations', (WidgetTester tester) async {
+  testWidgets('CustomToggleButton applies customizations',
+      (WidgetTester tester) async {
     final items = ['Option A', 'Option B'];
     const double customButtonWidth = 100;
     const double customButtonHeight = 50;

@@ -1,5 +1,11 @@
 name: flutter_toggle_button
-description: "A customizable toggle button widget for Flutter."
+description: "  A highly customizable toggle button widget for Flutter applications. This widget
+  allows you to create stylish toggle buttons with flexible configurations
+  including button size, colors, gradients, text styles, and more. It supports
+  various content types such as text, numbers, and widgets, making it versatile
+  for different use cases. The package includes comprehensive customization options
+  to tailor the appearance and behavior of the toggle buttons to suit your app's
+  design requirements."
 version: 0.0.1
 homepage: https://github.com/sharmark9931/custom_toggle_button
 

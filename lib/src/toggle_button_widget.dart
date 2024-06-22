@@ -94,8 +94,11 @@ class FlutterToggleButton extends StatefulWidget {
     this.buttonBorderWidth = 0,
     this.onTap,
   })  : assert(
-            items
-                .every((item) => item is String || item is double || item is int || item is Widget),
+            items.every((item) =>
+                item is String ||
+                item is double ||
+                item is int ||
+                item is Widget),
             'items list must contain either String, int, double or a Widget'),
         assert((outerContainerColor == null || outerContainerGradient == null),
             'Provide either outerContainerColor or outerContainerGradient, not both.'),
@@ -109,7 +112,8 @@ class FlutterToggleButton extends StatefulWidget {
 class FlutterToggleButtonState extends State<FlutterToggleButton> {
   int _selectedOptionIndex = 0; // Default selected option index
 
-  double get outerContainerHeight => widget.buttonHeight + 2 * widget.outerContainerMargin;
+  double get outerContainerHeight =>
+      widget.buttonHeight + 2 * widget.outerContainerMargin;
 
   double get outerContainerWidth =>
       (widget.items.length * widget.buttonWidth) +
@@ -121,12 +125,15 @@ class FlutterToggleButtonState extends State<FlutterToggleButton> {
     // Default colors if none are provided
     const Color defaultOuterContainerColor =
         Colors.grey; // Set a default color for the outer container
-    const Color defaultButtonColor = Colors.blue; // Set a default color for the button
+    const Color defaultButtonColor =
+        Colors.blue; // Set a default color for the button
 
     final Color effectiveOuterContainerColor =
         widget.outerContainerColor ?? defaultOuterContainerColor;
     final LinearGradient? effectiveOuterContainerGradient =
-        widget.outerContainerColor == null ? widget.outerContainerGradient : null;
+        widget.outerContainerColor == null
+            ? widget.outerContainerGradient
+            : null;
 
     final Color effectiveButtonColor = widget.buttonColor ?? defaultButtonColor;
     final LinearGradient? effectiveButtonGradient =
@@ -166,8 +173,12 @@ class FlutterToggleButtonState extends State<FlutterToggleButton> {
                   width: widget.buttonWidth,
                   height: widget.buttonHeight,
                   decoration: BoxDecoration(
-                    color: _selectedOptionIndex == index ? effectiveButtonColor : null,
-                    gradient: _selectedOptionIndex == index ? effectiveButtonGradient : null,
+                    color: _selectedOptionIndex == index
+                        ? effectiveButtonColor
+                        : null,
+                    gradient: _selectedOptionIndex == index
+                        ? effectiveButtonGradient
+                        : null,
                     borderRadius: BorderRadius.circular(widget.borderRadius),
                     border: _selectedOptionIndex == index
                         ? widget.buttonBorderWidth > 0
