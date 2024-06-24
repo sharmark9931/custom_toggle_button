@@ -169,7 +169,9 @@ class FlutterToggleButtonState extends State<FlutterToggleButton> {
                     widget.onTap!(index);
                   }
                 },
-                child: Container(
+                child: AnimatedContainer(
+                  duration: const Duration(milliseconds: 300),
+                  curve: Curves.easeInOut,
                   width: widget.buttonWidth,
                   height: widget.buttonHeight,
                   decoration: BoxDecoration(

@@ -1,3 +1,4 @@
+
 # Flutter Toggle Button Widget
 
 [![License: MIT](https://img.shields.io/badge/Licence-MIT-success.svg)](https://opensource.org/licenses/MIT)
@@ -8,41 +9,41 @@ size, colors, gradients, and text styles.
 <table>
   <tr>
     <td align="center">
-      <img src="doc/1.png" alt="Example 01" width="200" />
+      <img src="https://github.com/sharmark9931/custom_toggle_button/blob/main/doc/1.png?raw=true" alt="Example 01" width="200" />
       <br />
       Example 01
     </td>
     <td align="center">
-      <img src="doc/2.png" alt="Example 02" width="200" />
+      <img src="https://github.com/sharmark9931/custom_toggle_button/blob/main/doc/2.png?raw=true" alt="Example 02" width="200" />
       <br />
       Example 02
     </td>
     <td align="center">
-      <img src="doc/3.png" alt="Example 03" width="200" />
+      <img src="https://github.com/sharmark9931/custom_toggle_button/blob/main/doc/3.png?raw=true" alt="Example 03" width="200" />
       <br />
       Example 03
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="doc/4.png" alt="Example 04" width="200" />
+      <img src="https://github.com/sharmark9931/custom_toggle_button/blob/main/doc/4.png?raw=true" alt="Example 04" width="200" />
       <br />
       Example 04
     </td>
     <td align="center">
-      <img src="doc/5.png" alt="Example 05" width="200" />
+      <img src="https://github.com/sharmark9931/custom_toggle_button/blob/main/doc/5.png?raw=true" alt="Example 05" width="200" />
       <br />
       Example 05
     </td>
     <td align="center">
-      <img src="doc/6.png" alt="Example 06" width="200" />
+      <img src="https://github.com/sharmark9931/custom_toggle_button/blob/main/doc/6.png?raw=true" alt="Example 06" width="200" />
       <br />
       Example 06
     </td>
   </tr>
 </table>
 
-![Example 07](doc/custom_toggle_button.gif?raw=true)
+![Example 07](https://github.com/sharmark9931/custom_toggle_button/blob/main/doc/custom_toggle_button.gif?raw=true)
 
 ## Features
 
@@ -172,8 +173,8 @@ class MyApp extends StatelessWidget {
 ```
 ## ToDo
 
-- **Button Animation:** Implement animation effects such as fade-in, scale, or color transitions when buttons are tapped to provide visual feedback to users.
-
+- Add animation as a parameter.
+- Add duration for animation as a parameter.
 
 ## License
 
